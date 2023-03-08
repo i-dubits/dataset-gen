@@ -10,5 +10,5 @@ Here we have implemented this technique in Python, and also made sure that the f
 
 <p float="left">
 <img src="./imgs/banana155.png" width="360"/>
-<img src="./imgs/tomatoes7.png" width="360"/>
+<img src="./imgs/tomatoes182.png" width="360"/>
 </p> 
