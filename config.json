@@ -1,0 +1,14 @@
+{
+	"device": "cuda",
+	"model_name": "resnet18",
+	"batch_size": 32,
+	"epoch_number": 5,
+	"learning_rate": 1e-4,
+	"report_steps": 100,
+	"path_to_dataset": "datataset",
+	"path_to_test_set": "test_set",
+	"output_dir": "train_results",
+	"test_size": 0.2,
+	"seed": 1,
+	"do_test": 1
+}
