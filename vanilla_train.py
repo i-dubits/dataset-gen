@@ -34,10 +34,11 @@ path_to_data = config['path_to_dataset']
 test_size = config['test_size']
 seed = config['seed']
 model_name = config['model_name']
+num_classes = config['num_classes']
 
 #wandb
 wandb.init(
-    project="spv_vanilla_train_5_classes",
+    project="spv_vanilla_train",
     config=config)
 
 #load data
@@ -47,7 +48,7 @@ dataset = dataset.train_test_split(test_size=test_size, shuffle=True, seed=seed,
                                                                 stratify_by_column="label")
 
 # load model and transforms
-model = timm.create_model(model_name, pretrained=True, num_classes=5).to(device)
+model = timm.create_model(model_name, pretrained=True, num_classes=num_classes).to(device)
 
 transform_valid = timm.data.create_transform(
     **timm.data.resolve_data_config(model.pretrained_cfg)

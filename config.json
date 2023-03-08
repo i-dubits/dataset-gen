@@ -5,6 +5,7 @@
 	"epoch_number": 5,
 	"learning_rate": 1e-4,
 	"report_steps": 100,
+	"num_classes": 5,
 	"path_to_dataset": "datataset",
 	"path_to_test_set": "test_set",
 	"output_dir": "train_results",
