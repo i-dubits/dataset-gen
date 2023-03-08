@@ -19,5 +19,5 @@ Examples are given below (bananas and tomatoes on random background images)
 
 <p float="left">
 <img src="./imgs/tomatoes1_3.png" width="360"/>
-<img src="./imgs/orange1_2.png.png" width="360"/>
+<img src="./imgs/orange1_2.png" width="360"/>
 </p> 
