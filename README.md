@@ -15,9 +15,12 @@ Examples are given below (bananas and tomatoes on random background images)
 <img src="./imgs/tomatoes182.png" width="360"/>
 </p> 
 
-**Stable diffusion** model is able to generate the whole scene using text prompt. For generating fruits the following prompt has been found to work well: "a photo of whole \<fruits\> on the table. top view" with negative prompt: "sliced, halved, cut" to avoid generating of sliced and cut fruits. Examples are given below:
+**Stable diffusion** model is able to generate the whole scene using text prompt. For generating fruits the following prompt has been found to work well: "a photo of whole \<fruits\> on the table. top view" with negative prompt: "sliced, halved, cut" to avoid generating of sliced and cut fruits. See [stable_diffusion.ipynb](stable_diffusion.ipynb) for details. Original notebook can be found [here](https://github.com/woctezuma/stable-diffusion-colab). Examples are given below:
 
 <p float="left">
 <img src="./imgs/tomatoes1_3.png" width="360"/>
 <img src="./imgs/orange1_2.png" width="360"/>
 </p> 
+
+Training and evaluation script [vanilla_train.py](vanilla_train.py) can be configured using [config.json](config.json) file. It uses standard pretrained classification models from
+[Timm library](https://huggingface.co/docs/timm/index) on Huggingface.
