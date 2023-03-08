@@ -9,6 +9,6 @@ This method was described and implemented in javascript in [Roboflow guide](http
 Here we have implemented this technique in Python, and also made sure that the foreground images do not overlap ([run_copy_paste_aug.py](data_scipts/run_copy_paste_aug.py)).
 
 <p float="left">
-<img src="./imgs/banana155.png" width="260"/>
-<img src="./imgs/tomatoes7.png" width="260"/>
+<img src="./imgs/banana155.png" width="360"/>
+<img src="./imgs/tomatoes7.png" width="360"/>
 </p> 
