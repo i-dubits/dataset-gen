@@ -24,3 +24,5 @@ Examples are given below (bananas and tomatoes on random background images)
 
 Training and evaluation script [vanilla_train.py](vanilla_train.py) can be configured using [config.json](config.json) file. It uses standard pretrained classification models from
 [Timm library](https://huggingface.co/docs/timm/index) on Huggingface.
+
+Small report based on the obtained results can be found here [Dataset generation.pdf](Dataset generation.pdf).
